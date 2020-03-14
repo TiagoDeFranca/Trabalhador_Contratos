@@ -61,21 +61,7 @@ public class Program {
 		System.out.println("Departamento: " + worker.getDepartment().getName()); // acessa o worker pra depóis acessar o nome do department
 		System.out.println("Salário de " + monthAndYear + ": " + 
 		String.format("%.2f", worker.income(year, month)));
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 		sc.close();
 	}
-
 }
